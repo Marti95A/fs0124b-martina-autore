@@ -43,6 +43,9 @@ main{
      border-bottom: color(srgb rgb(227, 239, 240) rgb(108, 187, 108) rgb(28, 116, 106));
      padding: ;
 }
-a {color: green;
+a {color: green;}
     
+
+.footer p{
+    padding: left 20px;em;
 }

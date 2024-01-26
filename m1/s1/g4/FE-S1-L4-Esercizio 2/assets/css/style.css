@@ -1,8 +1,10 @@
 /* IMPOSTAZIONI GENERALI */
+* {box-sizing: border-box;}
 body{
     margin: 15px ;
     font-family: 'Poppins', sans-serif;
 }
+
 
 /* HEADER */
 header p { padding-bottom: 7px;}

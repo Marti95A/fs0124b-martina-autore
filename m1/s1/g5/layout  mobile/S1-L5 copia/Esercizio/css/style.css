@@ -99,6 +99,8 @@ header img{
 #orange{
     background-color: #e22d0e;
     text-align: center;
+    margin-left: 14px;
+    margin-right: 14px;
     color: white;
     padding-top: 50px;
     padding-bottom: 35px;
@@ -153,6 +155,7 @@ footer{
     font-size: 'montserrat(bold)';
     color: white;
     text-align: center;
+    font-size: 2em;
 }
 
 a{

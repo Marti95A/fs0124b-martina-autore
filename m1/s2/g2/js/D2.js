@@ -2,10 +2,18 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-  {  let numero1= 7
-    let numero2= 3
-    if (numero1>numero2)
-console.log(numero1>numero2)
+  {  let x= 3
+     let y= 7
+
+    if (x > y)
+    {
+    console.log( 'il numero più grande è', x )
+    }else if (x < y)
+    {
+      console.log('il numero più grande è', y)
+    }else{
+     console.log ('i numeri sono uguali')
+    }
   }
 
 
@@ -13,10 +21,9 @@ console.log(numero1>numero2)
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 {
-let numero1= "n"
-let numero5= 5
-if (numero1!=numero5)
-{console.log('not equal')}
+
+let x= 8
+if (x!== 5) console.log('not equal')
 }
 
 /* ESERCIZIO 3
@@ -24,10 +31,9 @@ if (numero1!=numero5)
 */
 
 {
-  let numero1= 10
-  let numero5= 5
-  if (numero1/numero5)
-  console.log('divisibile per cinque')
+let x=10
+if(x % 5 === 0)
+{console.log('divisibile per5')}
   }
 
 /* ESERCIZIO 4
@@ -36,11 +42,12 @@ if (numero1!=numero5)
 
 {
 
-  let numero3= 3
-  let numero5= 5
-  let numero8= 8
-  if (numero5-numero3==numero8)
-  console.log()
+  let x= 3
+  let y= 5
+  
+  if ( x===8 || y===8 || (y-x===8) || (x-y===8) ||(x+y===8)) {console.log('verificato')
+}
+  
   }
 
 /* ESERCIZIO 5
@@ -48,13 +55,15 @@ if (numero1!=numero5)
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
-{let spedizione =10;
-let totalShoppingCart= 50;
-console.log( totalShoppingCart <50 )
-console.log ( totalShoppingCart >50 )
+{
+let totalShoppingCart= 60;
+let spedizione= 10;
+let pagamento= totalShoppingCart
+if(totalShoppingCart<50)
+{
+  pagamento += spedizione }
+
 console.log(totalShoppingCart>50)
-if( totalShoppingCart <50 )else ( totalShoppingCart ==50 ) 
-if( totalShoppingCart >50 )
 }
 
 
@@ -62,14 +71,8 @@ if( totalShoppingCart >50 )
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
-{let sconto= -20‰;
-  let totalShoppingCart= 50;
-  console.log( totalShoppingCart <50 )
-  console.log ( totalShoppingCart >50 )
-  console.log(totalShoppingCart>50)
-  if( totalShoppingCart <50 )else ( totalShoppingCart ==50 ) 
-  if( totalShoppingCart >50 )
-  }
+
+
   
 
 /* ESERCIZIO 7
@@ -87,16 +90,17 @@ if(numero3<numero2<numero1)
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
+{
 function numero() {
 typeof 10 == 'number'}
+}
 
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
+x = 10
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-function numeroPariDispari (numero){return (numero‰2)}
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
   let val = 7
@@ -120,7 +124,8 @@ const me = {
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
 }
- me.push ('city=Toronto')
+ me.city= 'Toronto'
+
 
 
 
@@ -151,7 +156,7 @@ me.skills.pop()
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
  let array =[]
- 
+ array.push(1,2,3,4,5,6,7,8,9,10)
  
 
 
@@ -159,4 +164,4 @@ me.skills.pop()
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-
+array.splice (9,1,100)

@@ -72,6 +72,15 @@ console.log(totalShoppingCart>50)
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
+{
+  let totalShoppingCart= 60;
+  let sconto= 20;
+  pagamento= totalShoppingCart * 0.8
+  let spedizione= 10;
+  if(totalShoppingCart<50)
+  {pagamento += spedizione }
+  console.log(totalShoppingCart>50)
+  }
 
   
 
@@ -80,26 +89,27 @@ console.log(totalShoppingCart>50)
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
   Alla fine mostra il risultato in console.
 */
-
-let numero1=10
-let numero2=20
-let numero3=30
-if(numero3<numero2<numero1)
-
+{
+let n1=10
+let n2=20
+let n3=30
+}
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 {
-function numero() {
-typeof 10 == 'number'}
+let numero = 6
+if( typeof numero === 'n' )
+{console.log('è un numero')
+}else( 'non è un numero')
 }
 
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
-x = 10
+{x = 10}
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
@@ -113,19 +123,19 @@ x = 10
     }
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
-
+{
 const me = {
   name: 'John',
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
 }
  me.city= 'Toronto'
-
+}
 
 
 
@@ -144,24 +154,30 @@ delete me.lastName
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
-
+{
 const me = {
   name: 'John',
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
 }
 me.skills.pop()
+}
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
+{
  let array =[]
  array.push(1,2,3,4,5,6,7,8,9,10)
- 
+}
 
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
+{
+  let array= [ 1,2,3,4,5,6,7,8,9,0,11,12,13,14]
 array.splice (9,1,100)
+console.log(array)
+}

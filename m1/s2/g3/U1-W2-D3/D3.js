@@ -187,6 +187,32 @@ console.log(eyeColor)
 
   Una volta fatto, modifica la massa di qualche elemento dell'equipaggio e vedi se riesci ad ottenere un messaggio diverso.
 */
+for (let i=0; i<starWarsCharacters.length; i++)
+{starWarsCharacters.push(charactersName[i].name)
+}
+let massa= 500
+
+if(massa<500)
+{console.log('ship is under loaded')
+}
+
+if(massa>500 && massa<700)
+{console.log('ship is half loaded')
+}
+
+if (massa>700 && massa<900) 
+{console.log('warning:load is over700') 
+}
+
+if (massa>700 && massa<1000) 
+{console.log('critical load:over900') 
+}
+
+if (massa>1000) 
+{console.log('DANGER! OVERLOAD ALERT: escape from ship now!') 
+}
+
+else {console.log('')}
 
 /* ESERCIZIO 8
   Usa un for loop per cambiare il valore della proprietà "gender" di alcuni personaggi dal valore "n/a" a "robot" (Tip: puoi effettuare la riassegnazione del valore corrispondente o creare un nuovo array)

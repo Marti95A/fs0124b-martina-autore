@@ -113,28 +113,65 @@ let charactersName=[]
 */
 
 
-for (let i=0; i<charactersName.length; i++)
-starWarsCharacters.push(charactersName[i].name)
-
-
+for (let i=0; i<starWarsCharacters.length; i++)
+{starWarsCharacters.push(charactersName[i].name)
+}
+console.log(charactersName)
 
 /* ESERCIZIO 3
   Seguendo i passaggi precedenti crea un nuovo array chiamato "femaleCharacters" e inserisci al suo interno tutti gli oggetti femminili.
 */
 let female[]
-for (let i=0; i<female.length; i++)
-starWarsCharacters.push(female[i].gender.female)
+for (let i=0; i<starWarsCharacters.length; i++)
+{starWarsCharacters.push(charactersName[i].name)
+
+if(charactersName.gender==='female')
+{
+  let femalelist={
+name:charactersName.name,
+
+  }
+}
+}
+
+
 
 /* ESERCIZIO 4
   Crea un oggetto "eyeColor" che abbia le seguenti proprietà: blue, yellow, brown, red, blue-gray.
   Ad ognuna di queste proprietà assegna come valore un array vuoto.
 */
+ let eyeColor = {
+  blue: [],
+  yellow: [],
+  brown: [],
+  red: [],
+  blue_gray: [],
+}
 
 /* ESERCIZIO 5
   Utilizza uno switch statement per inserire uno ad uno gli oggetti dei personaggi di "starWarsCharacters" negli array relativi al colore degli occhi precedentemente creati.
   Ogni personaggio dovrà finire nell'array corrispondente al suo colore degli occhi (al valore della sua proprietà "eye_color").
 */
+for (let i=0; i<starWarsCharacters.length; i++)
+{starWarsCharacters.push(charactersName[i].name)
+}
+switch(charactersName.eye_color)
+  case 'blue'
+  eyeColor.blue.push(charactersName)
+    break
+  case 'yellow'
+  eyeColor.yellow.push(charactersName)
+    break
+  case 'brown'
+  eyeColor.brown.push(charactersName)
+    break
+  case 'red'
+  eyeColor.red.push(charactersName)
+   break
+  case 'blue_gray'
+  eyeColor.blue_gray.push(charactersName)
 
+console.log(eyeColor)
 /* ESERCIZIO 6
   Usa un while loop per calcolare la massa totale dell'equipaggio. Salvala in una variabile chiamata "crewMass".
 */

@@ -5,14 +5,12 @@
   {  let x= 3
      let y= 7
 
-    if (x > y)
-    {
-    console.log( 'il numero più grande è', x )
-    }else if (x < y)
-    {
+    if (x > y){
+      console.log( 'il numero più grande è', x )
+    } else if (x < y){
       console.log('il numero più grande è', y)
-    }else{
-     console.log ('i numeri sono uguali')
+    } else{
+      console.log ('i numeri sono uguali')
     }
   }
 
@@ -33,7 +31,7 @@ if (x!== 5) console.log('not equal')
 {
 let x=10
 if(x % 5 === 0)
-{console.log('divisibile per5')}
+{console.log('divisibile per 5')}
   }
 
 /* ESERCIZIO 4
@@ -45,54 +43,66 @@ if(x % 5 === 0)
   let x= 3
   let y= 5
   
-  if ( x===8 || y===8 || (y-x===8) || (x-y===8) ||(x+y===8)) {console.log('verificato')
-}
-  
+  if ( x===8 || y===8 || (y-x===8) || (x-y===8) ||(x+y===8)) {
+    console.log('verificato')
   }
+  
+}
 
 /* ESERCIZIO 5
-  Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
-  C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
+  Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una 
+  variabile "totalShoppingCart".
+  C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione 
+  gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 {
 let totalShoppingCart= 60;
 let spedizione= 10;
-let pagamento= totalShoppingCart
-if(totalShoppingCart<50)
-{
-  pagamento += spedizione }
 
-console.log(totalShoppingCart>50)
+let pagamento= totalShoppingCart
+if(totalShoppingCart<50){
+  pagamento += spedizione
+}
+
+console.log(pagamento)
 }
 
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
-  Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
+  Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima 
+  se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
 {
   let totalShoppingCart= 60;
-  let sconto= 20;
-  pagamento= totalShoppingCart * 0.8
+  let sconto= 0.8;
+  pagamento= totalShoppingCart * sconto
   let spedizione= 10;
   if(totalShoppingCart<50)
   {pagamento += spedizione }
-  console.log(totalShoppingCart>50)
+  console.log(pagamento)
   }
 
   
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
-  Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
+  Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto 
+  al più basso.
   Alla fine mostra il risultato in console.
 */
 {
-let n1=10
-let n2=20
-let n3=30
+      let n1=10
+      let n2=20
+      let n3=30
+      let arr = [n1, n2, n3]
+      let array_ordinato arr.sort((a,b) => a - b)
+      if (a>b){
+
+      }
+      console.log(array_ordinato)
 }
 
 /* ESERCIZIO 8

@@ -1,0 +1,178 @@
+/* Your styles here */
+
+body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif sans-serif;
+    line-height: 1.40;
+background-color: aliceblue;
+}
+
+.logo{ 
+    background-color: #212f3e;
+   padding-top: 10px;
+
+}
+
+img{
+ max-width: 8%;
+ margin-left: 20px;
+}
+
+.ancora{
+   background-color: #344759; 
+}
+
+ header a{
+    color:white;
+    text-decoration: none;
+   margin: 0.1px;
+   margin-left: 20px;
+   font-size: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    margin: 15px;  
+}
+
+.arancio {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color:#f66600;
+    color: white;
+    text-align: center;
+}
+
+.arancio p{
+    font-size: 0.5em; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+ #verde{
+    background-image: url(../images/bg-image.png);
+background-size:90%;
+padding-top: 35px;
+padding-bottom: 25px;
+margin-top: 20px;
+ }
+
+ #verde h3, p{ 
+color: white;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+ }
+
+ #verde h3{
+ font-size: 1em;
+ color: white;
+ }
+ #verde p{
+    font-size: 0.5em;
+    color: white;
+ }
+
+#contenitore-1{
+    background-color: white;
+    margin-top: 20px;
+ }
+
+ .testi-affiancati h4{
+    margin-left: 1em;
+    margin-right: 1em;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:0.7em;
+}
+
+.testi-affiancati p{
+    color: #045868;
+    font-size:0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.testi-affiancati h4,p {
+    display: inline-block;
+}
+
+.img1 img{
+    border-radius: 20%;
+    display: inline-block;
+}
+
+.img2 img{
+    border-radius: 20%;
+display: inline-block;
+}
+
+.img3 img{
+    border-radius: 20%;
+    display: inline-block;
+}
+
+.img4 img{
+    border-radius: 20%;
+    display: inline-block;
+}
+
+#sfondo1{
+    background-image: url(../images/img_9.png);
+    background-size: cover;
+    width: 300px;
+    
+}
+
+.testi-affiancati2 h4,p{
+display: inline-block;
+}
+.testi-affincati2 h4{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:0,7em;
+}
+
+.testi-affiancati2 p{
+    color:#045868;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+}
+.testi-affiancati3 h4,p{
+    display: inline-block;
+}
+
+.testi-affincati3 h4{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:0,7em;
+}
+
+.testi-affiancati3 p{
+    color:#045868;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;}
+
+
+
+footer a {
+    
+    font-size: 0.5em; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   margin-left: 320px;
+}
+
+ .testo_footer{
+    background-color:#344759;
+
+ }
+
+.img_footer{
+    background-color: #212f3e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+footer img{
+    max-width: 14%;
+    margin-left: 295px;
+}

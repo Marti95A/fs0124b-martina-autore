@@ -12,7 +12,7 @@ console.log(area(5,2))
  La funzione deve ritornare la somma dei due parametri, ma se il valore dei due parametri è il medesimo deve invece tornare
  la loro somma moltiplicata per tre.
 */
-
+// i : servono per separare risultato 1 dal secondo (spiegazione prof)
 
 
  let crazySum= (a,b)=>(5+3)
@@ -51,12 +51,7 @@ console.log(boundary(400))
  ritornare la stringa originale senza alterarla.
 */
 /*{
-function epify (stringa){
- newEpify= 'EPICODE' + epify()
- if (newEpify) return epify()
-}
 
-console.log (epify())
 }*/
 
 /* ESERCIZIO 6
@@ -88,14 +83,17 @@ console.log( invertita) */
  La funzione deve rendere maiuscola la prima lettera di ogni parola contenuta nella stringa.
 */
 function upperFirst (stringa){
-    let maiusc =stringa.split().map()
+    let maiusc =stringa.split('') // nelle parentesi di split metto le virgolette per mettere un taglio ogni dove c'è uno spazio, altrimenti se metto la parola una lettera separa solo le lettere tra loro
+    for(let i= 0;i<maiusc.lenght; i++){
+        let primaLettera= parola [i][0].toUpperCase();
+        console.log(primaLettera)
     return
 }
 
 /* ESERCIZIO 9
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
  della stringa originale.
-*/
+ */
  function cutString (stringa){
  return
  }
@@ -112,5 +110,5 @@ function giveMeRandom(n){
    }
    return arr
 }
-console.log(arr)
+
 /* SCRIVI QUI LA TUA RISPOSTA */

@@ -22,15 +22,13 @@
    ognuno di essi deve essere un valore random compreso tra 0 e 100 (incluso).
 */
 {
- const arr = list(range(1,100))
   const elements = function(){
-   for (let i = 0; i < arr.length; i++) {
-    const element = arr [i];
-    let random = Math.floor(Math.random)()*101
-     newarr = random.sample(arr,10)
+    let result = []
+    for (let i = 0; i < 10; i++) {
+    let random = Math.floor(Math.random()*101)
     newarr.push(random)
    }
-   return newarrarr
+   return result
  }
  elements()
 }
@@ -39,24 +37,19 @@
   Scrivi una funzione per ricavare solamente i valori PARI da un array composto
    da soli valori numerici
 */
-{
-  const arr = list(range(1,100))
-  const pari =function(arr){
-  return arr % 2 == 0
 
-}
-}
 /* ESERCIZIO 4 (forEach)
   Scrivi una funzione per sommare i numeri contenuti in un array
 */
 {
   const arr = [1,2,3,4,5,6,7,8,9,10,]
+  let somma = 0
 
-     arr.forEach(function(arr){
-      let somma = 0
-      somma += arr
+     arr.forEach(function(n){
+      somma += n
      })
 }
+console.log(somma)
 
 /* ESERCIZIO 5 (reduce)
   Scrivi una funzione per sommare i numeri contenuti in un array

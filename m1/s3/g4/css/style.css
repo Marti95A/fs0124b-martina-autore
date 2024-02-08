@@ -1,0 +1,30 @@
+
+div h1{
+   font-size: 5em;
+   text-align: center;
+   color: rgba(38, 9, 41, 0.866);
+}
+
+.myDiv{
+    display: flex;
+    border: 0,5px solid rgb(57, 47, 56);
+    text-align: center;
+     margin-left: 30px;
+    color: rgba(38, 9, 41, 0.866);
+    flex-wrap: wrap;
+  }
+  
+  .cella  {
+    flex:0 1 calc(100%/10) ;
+    background-color: rgb(233, 214, 228);
+    text-align: center;
+    cursor: pointer;
+    padding: 25px 0;
+    border: solid;
+  }
+  .cella:hover{
+    background-color: rgba(121, 9, 104, 0.416);
+  }
+  .cella.selezionato{ 
+    border: 0,5px solid rgb(57, 47, 56);
+  }

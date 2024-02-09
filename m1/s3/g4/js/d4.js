@@ -1,10 +1,12 @@
-function createDivs() {
-    const container = document.getElementById("");
-    for (var i = 1; i <= 75; i++) {
-      const div = document.createElement("div");
-      div.className = "myDiv";
-      div.textContent = i;
-      container.appendChild(div);
-    }
-  }
+const nCelle = 90
+const arrVuoto = []
+for (let i = 1; i <=nCelle; i++) {
+    cella = document.createElement('div')
+    cella.classList.add('cella')
+    cella.innerText = i
+    
+    arrVuoto[i] 
+
+
+} 
 
